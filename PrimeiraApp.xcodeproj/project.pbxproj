@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2016C8291571BCFD00F27840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2016C8281571BCFD00F27840 /* UIKit.framework */; };
+		2016C82B1571BCFD00F27840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2016C82A1571BCFD00F27840 /* Foundation.framework */; };
+		2016C82D1571BCFD00F27840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2016C82C1571BCFD00F27840 /* CoreGraphics.framework */; };
+		2016C8331571BCFD00F27840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2016C8311571BCFD00F27840 /* InfoPlist.strings */; };
+		2016C8351571BCFD00F27840 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016C8341571BCFD00F27840 /* main.m */; };
+		2016C8391571BCFD00F27840 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016C8381571BCFD00F27840 /* AppDelegate.m */; };
+		2016C8491571BD5C00F27840 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2016C8481571BD5C00F27840 /* MapKit.framework */; };
+		2016C84D1571BDE300F27840 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016C84B1571BDE300F27840 /* MapViewController.m */; };
+		2016C84E1571BDE300F27840 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2016C84C1571BDE300F27840 /* MapViewController.xib */; };
+		2016C8521571BFA000F27840 /* Vila Mariana.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 2016C8511571BFA000F27840 /* Vila Mariana.gpx */; };
+		2016C85B1571C07400F27840 /* MapViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2016C85A1571C07400F27840 /* MapViewController~ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2016C8241571BCFD00F27840 /* PrimeiraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeiraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2016C8281571BCFD00F27840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2016C82A1571BCFD00F27840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2016C82C1571BCFD00F27840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2016C8301571BCFD00F27840 /* PrimeiraApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrimeiraApp-Info.plist"; sourceTree = "<group>"; };
+		2016C8321571BCFD00F27840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2016C8341571BCFD00F27840 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2016C8361571BCFD00F27840 /* PrimeiraApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimeiraApp-Prefix.pch"; sourceTree = "<group>"; };
+		2016C8371571BCFD00F27840 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2016C8381571BCFD00F27840 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2016C8481571BD5C00F27840 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2016C84A1571BDE300F27840 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2016C84B1571BDE300F27840 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2016C84C1571BDE300F27840 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		2016C8511571BFA000F27840 /* Vila Mariana.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Vila Mariana.gpx"; sourceTree = "<group>"; };
+		2016C85A1571C07400F27840 /* MapViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "MapViewController~ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2016C8211571BCFD00F27840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2016C8491571BD5C00F27840 /* MapKit.framework in Frameworks */,
+				2016C8291571BCFD00F27840 /* UIKit.framework in Frameworks */,
+				2016C82B1571BCFD00F27840 /* Foundation.framework in Frameworks */,
+				2016C82D1571BCFD00F27840 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2016C8191571BCFD00F27840 = {
+			isa = PBXGroup;
+			children = (
+				2016C82E1571BCFD00F27840 /* PrimeiraApp */,
+				2016C8271571BCFD00F27840 /* Frameworks */,
+				2016C8251571BCFD00F27840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2016C8251571BCFD00F27840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2016C8241571BCFD00F27840 /* PrimeiraApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2016C8271571BCFD00F27840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2016C8481571BD5C00F27840 /* MapKit.framework */,
+				2016C8281571BCFD00F27840 /* UIKit.framework */,
+				2016C82A1571BCFD00F27840 /* Foundation.framework */,
+				2016C82C1571BCFD00F27840 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2016C82E1571BCFD00F27840 /* PrimeiraApp */ = {
+			isa = PBXGroup;
+			children = (
+				2016C8371571BCFD00F27840 /* AppDelegate.h */,
+				2016C8381571BCFD00F27840 /* AppDelegate.m */,
+				2016C84A1571BDE300F27840 /* MapViewController.h */,
+				2016C84B1571BDE300F27840 /* MapViewController.m */,
+				2016C84C1571BDE300F27840 /* MapViewController.xib */,
+				2016C85A1571C07400F27840 /* MapViewController~ipad.xib */,
+				2016C82F1571BCFD00F27840 /* Supporting Files */,
+			);
+			path = PrimeiraApp;
+			sourceTree = "<group>";
+		};
+		2016C82F1571BCFD00F27840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2016C8511571BFA000F27840 /* Vila Mariana.gpx */,
+				2016C8301571BCFD00F27840 /* PrimeiraApp-Info.plist */,
+				2016C8311571BCFD00F27840 /* InfoPlist.strings */,
+				2016C8341571BCFD00F27840 /* main.m */,
+				2016C8361571BCFD00F27840 /* PrimeiraApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2016C8231571BCFD00F27840 /* PrimeiraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2016C8451571BCFD00F27840 /* Build configuration list for PBXNativeTarget "PrimeiraApp" */;
+			buildPhases = (
+				2016C8201571BCFD00F27840 /* Sources */,
+				2016C8211571BCFD00F27840 /* Frameworks */,
+				2016C8221571BCFD00F27840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeiraApp;
+			productName = PrimeiraApp;
+			productReference = 2016C8241571BCFD00F27840 /* PrimeiraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2016C81B1571BCFD00F27840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = None;
+			};
+			buildConfigurationList = 2016C81E1571BCFD00F27840 /* Build configuration list for PBXProject "PrimeiraApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2016C8191571BCFD00F27840;
+			productRefGroup = 2016C8251571BCFD00F27840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2016C8231571BCFD00F27840 /* PrimeiraApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2016C8221571BCFD00F27840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2016C8331571BCFD00F27840 /* InfoPlist.strings in Resources */,
+				2016C84E1571BDE300F27840 /* MapViewController.xib in Resources */,
+				2016C8521571BFA000F27840 /* Vila Mariana.gpx in Resources */,
+				2016C85B1571C07400F27840 /* MapViewController~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2016C8201571BCFD00F27840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2016C8351571BCFD00F27840 /* main.m in Sources */,
+				2016C8391571BCFD00F27840 /* AppDelegate.m in Sources */,
+				2016C84D1571BDE300F27840 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2016C8311571BCFD00F27840 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2016C8321571BCFD00F27840 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2016C8431571BCFD00F27840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2016C8441571BCFD00F27840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2016C8461571BCFD00F27840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeiraApp/PrimeiraApp-Prefix.pch";
+				INFOPLIST_FILE = "PrimeiraApp/PrimeiraApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2016C8471571BCFD00F27840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrimeiraApp/PrimeiraApp-Prefix.pch";
+				INFOPLIST_FILE = "PrimeiraApp/PrimeiraApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2016C81E1571BCFD00F27840 /* Build configuration list for PBXProject "PrimeiraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2016C8431571BCFD00F27840 /* Debug */,
+				2016C8441571BCFD00F27840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2016C8451571BCFD00F27840 /* Build configuration list for PBXNativeTarget "PrimeiraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2016C8461571BCFD00F27840 /* Debug */,
+				2016C8471571BCFD00F27840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2016C81B1571BCFD00F27840 /* Project object */;
+}
